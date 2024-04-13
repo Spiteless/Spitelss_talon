@@ -3,7 +3,7 @@ mod = Module()
 
 @mod.action_class
 class Actions:
-    def sleeplock():
+    def sleeplock(self):
         "Locks the screen"
         from ctypes import cdll
 
